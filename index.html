@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Like a Verse but Softer 🫶🏽</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="image-box">
+      <img id="photo" src="images/1.jpg" alt="Photo of Refilwe" />
+    </div>
+
+    <h1>Like a Verse but Softer 🫶🏽</h1>
+    <p class="subtitle">You don’t have to say much — I already know 💭</p>
+
+    <div class="buttons">
+      <button onclick="showQuote('happy')">😊 Feeling Good</button>
+      <button onclick="showQuote('missing')">💭 Missing Me</button>
+      <button onclick="showQuote('thinking')">🌀 In Your Head</button>
+      <button onclick="showQuote('love')">💖 Need Some Love</button>
+      <button onclick="showQuote('bar')">🎤 Want a Bar?</button>
+    </div>
+
+    <div id="quoteBox" class="quote-box"></div>
+    <div id="moodLabel" class="mood-label"></div>
+
+    <div class="link-to-about">
+      <a href="about.html">Read what I love about you →</a>
+    </div>
+
+    <footer>
+      “Even when you're quiet, I hear everything you don't say.” ❤️
+    </footer>
+  </div>
+
+  <audio id="clickSound" src="audio/click.wav" preload="auto"></audio>
+
+  <script src="script.js"></script>
+</body>
+</html>
